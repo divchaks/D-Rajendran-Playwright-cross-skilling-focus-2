@@ -1,0 +1,31 @@
+# Node modules
+node_modules/
+
+# Environment files
+.env
+
+# Cucumber reports
+cucumber-report.html
+
+# Coverage and logs
+coverage/
+*.log
+
+# OS generated files
+.DS_Store
+
+# IDE files
+.vscode/
+.idea/
+
+# Playwright test output
+test-results/
+
+# npm debug
+npm-debug.log*
+
+# Lock files
+package-lock.json
+
+# Misc
+*.tmp
