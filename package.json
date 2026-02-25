@@ -7,7 +7,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "cucumberreport": "npx cucumber-js --format html:cucumber-report.html",
-    "cucumberparallel": "npx cucumber-js --parallel 4 --format html:cucumber-report.html"
+    "paralleltest": "npx cucumber-js --parallel 4 --format html:cucumber-report.html",
+    "logintest": "npx cucumber-js features/login.feature",
+    "productstest": "npx cucumber-js features/products.feature"
   },
   "keywords": [],
   "author": "",
