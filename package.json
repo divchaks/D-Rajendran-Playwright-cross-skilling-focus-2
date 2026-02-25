@@ -1,0 +1,20 @@
+{
+  "name": "crossskilling-playwright-focus-2",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cucumberreport": "npx cucumber-js --format html:cucumber-report.html",
+    "cucumberparallel": "npx cucumber-js --parallel 4 --format html:cucumber-report.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^12.7.0",
+    "@playwright/test": "^1.58.2",
+    "playwright": "^1.58.2"
+  }
+}
