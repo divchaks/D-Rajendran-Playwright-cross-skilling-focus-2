@@ -11,12 +11,6 @@ class LoginPage {
     await this.page.goto(url);
   }
 
-  async loginToApplication(username, password) {
-    await this.usernameField.fill(username);
-    await this.passwordField.fill(password);
-    await this.loginBtn.click();
-  }
-
   async fillUsername(username) {
     await this.usernameField.fill(username);
   }

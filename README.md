@@ -118,7 +118,7 @@ First, open your terminal and move into the folder where the cloned project live
 
 ```bash
 
-cd Documents/Playwright/Cross_Skilling_Playwright
+cd Documents/Playwright/D-Rajendran-Playwright-cross-skilling-focus-2
 ```
 
 Make sure you’re inside the root of the Playwright project where the package.json and playwright.config.ts files are located.
@@ -133,15 +133,6 @@ npm install
 ```
 
 This command installs all the dependencies your test project needs
-
-Step 3: Install Playwright Browsers
-
-Playwright uses its own version of Chromium, Firefox, and WebKit for consistent automation.Use the following command to download the browser binaries and store them locally in the .playwright/ directory.
-
-```bash
-
-npx playwright install
-```
 
 ### Running Tests
 

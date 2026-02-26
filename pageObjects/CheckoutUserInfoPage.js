@@ -13,6 +13,7 @@ class CheckoutUserInfoPage {
     await this.lastNameField.fill(lastname);
     await this.postalCodeField.fill(postalcode);
   }
+
   async clickContinueBtn() {
     await this.continueButton.click();
   }

@@ -6,6 +6,7 @@ import { CheckoutPage } from "../../pageObjects/CheckoutPage.js";
 import { CheckoutUserInfoPage } from "../../pageObjects/CheckoutUserInfoPage.js";
 import { CheckoutOverviewPage } from "../../pageObjects/CheckoutOverviewPage.js";
 import { CheckoutCompletePage } from "../../pageObjects/CheckoutCompletePage.js";
+
 setDefaultTimeout(60 * 1000); // Set default timeout to 60 seconds
 Before(async function () {
   this.browser = await chromium.launch({ headless: false });
