@@ -95,7 +95,7 @@ git clone https://github.com/divchaks/D-Rajendran-Playwright-cross-skilling-focu
 
 This will:
 
-Create a new folder named after your repo (e.g. Cross_Skilling_Playwright)
+Create a new folder named after your repo (e.g. D-Rajendran-Playwright-cross-skilling-focus-2)
 
 Step 5: Move Into the Project Folder
 
@@ -103,7 +103,7 @@ Once cloned, change into the project directory like this:
 
 ```bash
 
-cd Cross_Skilling_Playwright
+cd D-Rajendran-Playwright-cross-skilling-focus-2
 ```
 
 You are now inside the Playwright test project directory and ready to set it up!
