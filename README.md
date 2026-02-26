@@ -2,8 +2,6 @@
 
 This repository is part of my personal learning journey as I focus on cross-skilling in automation tools. It serves as a structured space for me to explore, practice, and deepen my understanding of Playwright.
 
-
-
 # Project setup
 
 To set up playwright ,first we have check if have node.js installed. You can check whether Node.js and npm are already installed by running the following command in your terminal:
@@ -91,7 +89,7 @@ Now that you're in the right place, use git clone to copy the Playwright test pr
 
 ```bash
 
-git clone https://github.com/divchaks/Cross-Skilling-Playwright.git
+git clone https://github.com/divchaks/D-Rajendran-Playwright-cross-skilling-focus-2.git
 
 ```
 
@@ -150,18 +148,22 @@ npx playwright install
 You can run your tests in different modes
 
 Run all test
+
 ```bash
-npx cucumber-js 
+npx cucumber-js
 ```
 
 Running Tests
 Run tests in parallel with html report :
+
 ```bash
 npm run paralleltest
 
 
 ```
+
 Run specific feature:
+
 ```bash
 npm run logintest     # Run login tests only
 npm run productstest  # Run product tests only
